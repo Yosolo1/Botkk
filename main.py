@@ -858,11 +858,11 @@ def onmessage(update,bot:ObigramClient):
             getUser = user_info
             getUser['moodle_host'] = "https://moodle.uclv.edu.cu/"
             getUser['uploadtype'] =  "calendar"
-            getUser['moodle_user'] = "anaralys"
-            getUser['moodle_password'] = "Zeta2025."
+            getUser['moodle_user'] = "Cjmartinez"
+            getUser['moodle_password'] = "nohayluz15*"
             getUser['moodle_repo_id'] = 4
             getUser['zips'] = 350
-            getUser['proxy'] = 'socks5://KKGDJIYKJJLFFIYGDHGDYHJDLGGDRKKJEJIEJELK'
+            getUser['proxy'] = '---'
             jdb.save_data_user(username,getUser)
             jdb.save()
             statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
