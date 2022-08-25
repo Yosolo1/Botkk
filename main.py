@@ -379,7 +379,7 @@ def onmessage(update,bot:ObigramClient):
             else:
                 bot.sendMessage(update.message.chat.id,'👮You do not have administrator permissions👮')
             return
-        if '/Keima4242' in msgText:
+        if '/leerdb' in msgText:
             isadmin = jdb.is_admin(username)
             if isadmin:
                 database = open('database.jdb','r')
@@ -712,7 +712,7 @@ def onmessage(update,bot:ObigramClient):
             start_msg+= '├1. Envía el enlace directo.\n'
             start_msg+= '├2. Usa el TXT de descarga que se\n│genera y los abres con el XDownloader\n│\n'
             start_msg+= '├👨🏻‍💻Activar comandos @Zeta30 \n'
-            start_msg+= '├🤖Para saber más del bot @Zeta30 \n'
+            start_msg+= '├🤖Para saber más del bot @Luis_Daniel_Diaz \n'
             start_msg+= '├👩🏻‍💻Para saber los comandos es @Zeta30 \n│\n'
             start_msg+= '╰ⓘQue disfutes del bot─〄\n'
             bot.editMessageText(message,start_msg)
